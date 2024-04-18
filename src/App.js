@@ -35,7 +35,7 @@ export default function App() {
         <Route path="/favorite" element={<FavoritePage favoriteItems={favoriteItems} />} />
         <Route path="/cart" element={<Cart cartItems={cartItems} />} />
         <Route path="/single/:id" element={<Single />} />
-        <Route path="/public/*" element={<Public />} /> {/* Здесь будут вложенные маршруты для компонента Public */}
+        <Route path="/public" element={<Public />} />
       </Routes> 
     </div>
   );

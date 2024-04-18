@@ -26,7 +26,7 @@ export default function Header({ favoriteCount, cartCount }) {
                   <Link to={"/"}>
                     <li className="li">Home</li>
                   </Link>
-                  <Link to={"/Admin"}>
+                  <Link to={"/public"}>
                     <li className="li">Admin</li>
                   </Link>
                 </ul>

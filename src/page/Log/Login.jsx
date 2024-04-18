@@ -21,7 +21,6 @@ export default function Login() {
       .catch(function (error) {
         console.log(error);
         alert("Error occurred while logging in. Please try again.");
-
       });
 
       
