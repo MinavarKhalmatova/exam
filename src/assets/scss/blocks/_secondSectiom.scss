@@ -1,0 +1,73 @@
+.second-section {
+  .titles {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  h1 {
+    color: rgb(0, 0, 0);
+    font-family: "Inter", "sans-serif";
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+  }
+
+  .right {
+    display: flex;
+    gap: 15px;
+  }
+
+  .center {
+    margin-top: 12px;
+  }
+
+  p {
+    color: rgba(0, 0, 0, 0.5);
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: left;
+  }
+
+  button {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    padding-top: 7.2px;
+    width: 103px;
+    height: 28px;
+    background: #fff;
+    box-sizing: border-box;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 66px;
+    color: rgb(0, 0, 0);
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 14px;
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  select {
+    width: 150px; /* Задайте желаемую ширину */
+    height: 28px;
+    background-color: #fff;
+    color: rgb(0, 0, 0);
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    padding: 5px 10px; /* Внутренние отступы */
+    margin-right: 5px; /* Отступ справа от select */
+  }
+
+  option {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+  }
+}

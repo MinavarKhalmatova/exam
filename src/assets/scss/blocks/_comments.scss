@@ -1,0 +1,89 @@
+.next-section {
+    margin-top: 50px;
+    .flex-block {
+      display: flex;
+      gap: 20px;
+      overflow-x: auto;
+      overflow-y: hidden; 
+      white-space: nowrap; 
+      padding-top: 30px;
+      height: 35vh;
+      &::-webkit-scrollbar {
+        width: 8px;
+      }
+    
+      &::-webkit-scrollbar-thumb {
+        background-color: #ccc;
+        border-radius: 4px;
+      }
+    
+      &::-webkit-scrollbar-track {
+        background-color: #ffffff;
+      }
+    }
+  
+  
+    .title {
+      color: rgb(0, 0, 0);
+      font-family: "Inter", sans-serif;
+      font-size: 18px;
+      font-weight: 700;
+      line-height: 24px;
+      letter-spacing: 0%;
+      text-align: left;
+    }
+  
+    //   card
+    .cards {
+        min-width: 320px;
+        height: 132px;
+        border-radius: 6px;
+        background: rgba(0, 0, 0, 0.05);
+        margin-top: 40px;
+        
+        .right {
+          display: flex;
+          gap: 4px;
+        }
+      
+        h5 {
+          padding-top: 3px;
+        }
+      
+        .photo {
+          width: 24px;
+          height: 24px;
+          border-radius: 24px;
+          background: rgba(0, 0, 0, 0.1);
+        }
+        .icons {
+          display: flex;
+        }
+      
+        .icon {
+          border: rgb(255, 108, 108);
+        }
+      
+        .text {
+          .subtitle {
+            color: rgb(0, 0, 0);
+            font-family: "Roboto", sans-serif;
+            font-size: 15px;
+            font-weight: 400;
+            padding: 20px;
+          }
+        }
+        .flex {
+          display: flex;
+          justify-content: space-between;
+          padding: 20px;
+        }
+      
+        .img {
+          width: 58.26px;
+          height: 9.81px;
+        }
+      }
+      
+  }
+  

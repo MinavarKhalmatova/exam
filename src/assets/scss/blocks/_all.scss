@@ -1,0 +1,93 @@
+.main-flex {
+  width: 100%;
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 50px;
+
+  .enner-main {
+    width: 300px;
+    height: 350px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    -webkit-box-shadow: -29px -8px 44px 5px rgba(0, 0, 0, 0.01);
+    -moz-box-shadow: -29px -8px 44px 5px rgba(0, 0, 0, 0.01);
+    box-shadow: -29px -8px 44px 5px rgba(0, 0, 0, 0.01);
+    transition: transform 0.3s ease-in-out;
+
+    &:hover {
+      transform: translateY(-5px);
+    }
+
+    .title {
+      width: 250px;
+      text-align: center;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      margin-top: 20px;
+    }
+
+    .p-third {
+      width: 350px;
+      text-align: center;
+    }
+
+    .image {
+      max-width: 150px;
+      height: 150px;
+      padding-top: 15px;
+    }
+
+    .add-to-cart,
+    .add-to-favorite {
+      margin-top: 10px;
+      padding: 5px;
+      background-color: #434344;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .add-to-cart:hover,
+    .add-to-favorite:hover {
+      background-color: #ffffff;
+      color: black;
+      border: 1px solid black;
+      font-family: "Inter", "sans-serif";
+      font-weight: 500;
+    }
+
+    .add-to-favorite {
+      display: flex;
+      align-items: center;
+
+      svg {
+        margin-right: 5px;
+      }
+
+      .fav {
+        color: rgb(255, 108, 108);
+      }
+
+      .cart {
+        padding-top: 2px;
+      }
+    }
+
+    .buttons {
+      display: flex;
+      gap: 20px;
+      margin-top: 10px;
+      margin-left: 6px;
+      justify-content: center;
+    }
+
+    h4 {
+      padding-top: 10px;
+      text-align: center;
+    }
+  }
+}

@@ -1,0 +1,46 @@
+.footer {
+  width: 100%;
+  background: rgb(167, 167, 167);
+  margin-top: 80px;
+
+  .footer-main {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+    text-align: center;
+    .logos {
+      width: 230px;
+      height: 64px;
+      padding: 20px;
+      border-radius: 20px;
+      border: 1px solid rgb(149, 149, 149);
+      color: rgb(0, 0, 0);
+      font-family: "Inter", sans-serif;
+      font-size: 20px;
+      font-weight: 700;
+      line-height: 24px;
+      letter-spacing: 0%;
+      text-align: left;
+      display: flex;
+      gap: 15px;
+      text-align: center;
+      justify-content: center;
+      background: rgb(167, 167, 167);
+      cursor: pointer;
+      .home {
+        font-size: 27px;
+      }
+    }
+
+    h4 {
+      color: rgb(0, 0, 0);
+      font-family: "Inter", sans-serif;
+      font-size: 20px;
+      font-weight: 500;
+      line-height: 24px;
+      letter-spacing: 0%;
+      text-align: left;
+      padding-top: 20px;
+    }
+  }
+}
